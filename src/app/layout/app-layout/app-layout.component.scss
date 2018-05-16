@@ -1,0 +1,9 @@
+@import '../app-header/app-header.component';
+@import '../app-sidebar/app-sidebar.component';
+
+.content {
+  margin-top: $header-height;
+  margin-left: $sidebar-width;
+  padding: 15px;
+  padding-right: 5px;
+}

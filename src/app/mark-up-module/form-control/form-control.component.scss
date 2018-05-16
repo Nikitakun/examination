@@ -1,0 +1,50 @@
+$color-dark: rgba(#33333d, 0.7);
+
+.form-group {
+  margin:  0 auto;
+  margin-bottom: 15px;
+  max-width: 210px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+
+  /*&::ng-deep input {
+    display: block;
+    padding: 7px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: inherit;
+    width: 100%;
+    color: #fff;
+    border: 1px solid $color-dark;
+    background: $color-dark;
+    border-radius: 3px;
+
+    &::placeholder {
+      padding-left: 5px;
+      color: #fff;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #fff;
+    }
+    &::-moz-placeholder {
+      color: #fff;
+    }
+    &:-ms-input-placeholder {
+      color: #fff;
+    }
+    &::-moz-placeholder {
+      color: #fff;
+    }
+  }
+
+  &::ng-deep button {
+    display: inline-block;
+    padding: 7px 10px;
+    font-family: inherit;
+    border: 1px solid #000;
+    border-radius: 1px;
+    background: transparent;
+  }*/
+
+}

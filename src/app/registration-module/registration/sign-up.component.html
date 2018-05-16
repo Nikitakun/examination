@@ -1,0 +1,21 @@
+<main class="sign-up-page">
+    <form-container>
+        <form [formGroup]="form.form">
+            <form-control>
+                <input class="form-control" type="text" placeholder="Имя пользователя" name="userName" formControlName="userName">
+            </form-control>
+            <form-control>
+                <input class="form-control" type="text" placeholder="Email" name="email" formControlName="email">
+            </form-control>
+            <form-control>
+                <input class="form-control" type="password" placeholder="Пароль" name="password" formControlName="password">
+            </form-control>
+            <form-control>
+                <input class="form-control" type="password" placeholder="Пароль еще разок" name="passwordConfirm" formControlName="passwordConfirm">
+            </form-control>
+            <form-control>
+                <button class="btn btn-secondary" (click)="submit()">Зарегистрироваться</button>
+            </form-control>
+        </form>
+    </form-container>
+</main>

@@ -1,0 +1,79 @@
+$header-height: 80px;
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.app-header {
+  position: fixed;
+  max-height: $header-height;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.logo-container {
+  width: 150px;
+}
+
+.sidebar-toggle-container {
+  width: 50px;
+}
+
+.nav-list {
+  display: flex;
+  width: 100%;
+}
+
+.nav-item:not(:last-of-type) {
+  margin-right: 5px;
+}
+
+.app-header-user-info {
+  display: flex;
+  margin-left: auto;
+}
+
+.notifications-container {
+  width: 100px;
+}
+
+.notification-bell-image-container {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.notification-bell-image {
+  width: 100%;
+  height: 100%;
+}
+
+.notifications-count {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  color: white;
+  top: -5px;
+  right: -10px;
+  border-radius: 50%;
+}
+
+.user-pic-container {
+  width: 60px;
+  border-radius: 50%;
+
+  .img {
+    border-radius: inherit;
+  }
+}
+
+.header-item {
+  margin-right: 25px;
+}
+
+.navbar {
+  padding: 5px;
+}

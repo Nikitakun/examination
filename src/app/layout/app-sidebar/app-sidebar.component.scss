@@ -1,0 +1,15 @@
+@import "../app-header/app-header.component";
+
+$sidebar-width: 180px;
+
+.app-sidebar {
+  position: fixed;
+  padding-top: 10px;
+  height: calc(100vh - #{$header-height});
+  text-align: center;
+  width: $sidebar-width;
+}
+
+.nav-item {
+  margin-right: 0;
+}
